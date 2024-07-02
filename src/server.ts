@@ -1,0 +1,21 @@
+import { sumProductArray } from "./10_sumProductOfArray";
+import { message } from "./1_helloWorld";
+import { simpleInterest } from "./2_simpleInterest";
+import { convertToYearMonthDay } from "./3_convertToYearMonthDay";
+import { sumProduct } from "./4_sum&AverageOfTwoNum";
+import { evenOdd } from "./5_checkEvenOdd";
+import { largestNum } from "./6_largestNum";
+import { areaRectangle } from "./7_areaRectangle";
+import { calculateGrossSalary } from "./8_grossSalary";
+import { tempConvert } from "./9_temperatureConvert";
+
+message;
+simpleInterest;
+convertToYearMonthDay();
+sumProduct();
+evenOdd(11);
+largestNum(45,32,113);
+areaRectangle(10,15);
+calculateGrossSalary(23000, 9500, 9500);
+tempConvert(37,2);
+sumProductArray([12,3,2,5,3,7,45,2,24,54]);
